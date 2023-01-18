@@ -1,10 +1,12 @@
 ## Desafio da missão inicial.
-
-- Crie uma classe Book com as seguintes             propriedades:
-            title: string
-            description: string
-        author: string
-- Crie uma classe Library com a seguinte propriedade:
+- Descrição do desafio.
+<br>
+--> Crie uma classe Book com as seguintes propriedades:
+title: string
+description: string
+author: string
+<br>
+--> Crie uma classe Library com a seguinte propriedade:
 books: Book[]
 - e com os seguintes métodos: adicionar:
 
