@@ -6,13 +6,12 @@ title: string
 description: string
 author: string
 <br>
-
 --> Crie uma classe Library com a seguinte propriedade:
 books: Book[]
 <br>
-
 --> e com os seguintes métodos:
-adicionar: addBook(bookInfo: Omit<Book, 'id'>): Book
+adicionar:
+addBook(bookInfo: Omit<Book, 'id'>): Book
 listar todos: getBooks(): Book[]
 remover: removeBookById(id: string): void
 mostrar um: getBookById(id: string): Book
