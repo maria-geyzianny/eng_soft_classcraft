@@ -1,12 +1,12 @@
 ## Desafio da missão inicial.
-- Descrição do desafio.
-<br>
---> Crie uma classe Book com as seguintes propriedades:
-title: string
-description: string
-author: string
-<br>
---> Crie uma classe Library com a seguinte propriedade:
+
+- Crie uma classe Book com as seguintes propriedades:
+
+        - title: string
+        - description: string
+        - author: string
+
+- Crie uma classe Library com a seguinte propriedade:
 books: Book[]
 - e com os seguintes métodos: adicionar:
 
@@ -17,4 +17,5 @@ books: Book[]
         - editar um: updateBookById(id: string
         - info: { title?: string, description
         - :string, author?: string }): Book
-- Como desenvolvedor(a) que usarei seu programa, devo poder criar Books e Libraries e executar os métodos presentes em Library.
+        
+Como desenvolvedor(a) que usarei seu programa, devo poder criar Books e Libraries e executar os métodos presentes em Library.
